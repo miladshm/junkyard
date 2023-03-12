@@ -1,0 +1,17 @@
+### Signup
+POST http://localhost:3000/auth/signup HTTP/1.1
+Content-Type: application/json
+
+{
+  "email": "mldsh8@gmail.com",
+  "password": "askdad"
+}
+
+### Find User
+GET http://localhost:3000/auth/3 HTTP/1.1
+
+### Find User By email
+GET http://localhost:3000/auth?email=mldsh6@gmail.com HTTP/1.1
+
+### Delete user
+DELETE http://localhost:3000/auth/1 HTTP/1.1
